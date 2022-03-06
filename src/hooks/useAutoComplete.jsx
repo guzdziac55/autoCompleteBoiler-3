@@ -1,5 +1,5 @@
 import { filterList } from "../helpers/filter";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const useAutoComplete = () => {
   const [input, setInput] = useState("");

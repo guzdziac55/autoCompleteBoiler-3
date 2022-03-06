@@ -3,8 +3,6 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import AutoCompleteInput from "./components/AutoCompleteInput";
 
-const arraySuggestion = ["Dawid", "Guzik ", "Dominika", "Adrian"];
-
 function App() {
   const [suggestions, setSuggestions] = useState([]);
 
